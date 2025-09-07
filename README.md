@@ -124,9 +124,64 @@ The dataset used in this project is named `netflix_titles.csv` and contains the 
 
 ---
 
-## ✅ Conclusion
+## ✅ Conclusion and Insights from EDA
 
-This project demonstrates how SQL can be effectively used to extract insights and perform data analysis on a large dataset. It covers business questions like most active countries, top directors, popular genres, and content trends over time. Additionally, it shows how to clean and transform data for better results.
+- **Content Type Count**  
+  The dataset contains a mix of Movies and TV Shows, with a larger number of Movies compared to TV Shows.
+
+- **Most Common Ratings**  
+  The most common ratings for Movies and TV Shows include TV-MA, PG-13, and TV-14. This suggests Netflix provides a wide range of content targeting both adults and family audiences.
+
+- **Recent Movies in 2020**  
+  A number of movies were released in the year 2020, indicating ongoing content production even during challenging times (such as the global pandemic).
+
+- **Top 5 Countries by Content Count**  
+  The top countries producing Netflix content are:
+  - United States
+  - India
+  - United Kingdom
+  - Japan
+  - Canada  
+  This shows Netflix's global strategy in producing and localizing content in key markets.
+
+- **Longest Movie**  
+  The longest movie in the dataset stands out as an exceptionally long film, which could be a documentary or a special release.
+
+- **Content Added in Last 5 Years**  
+  A significant portion of the content was added in the last 5 years, reflecting Netflix's continuous expansion of its library to stay competitive.
+
+- **Content by Director 'Rajiv Chilaka'**  
+  Multiple entries directed by Rajiv Chilaka were found, indicating a productive content creator on the platform.
+
+- **TV Shows with More Than 5 Seasons**  
+  Several TV Shows have more than 5 seasons, showing that some series are long-running and popular.
+
+- **Genre Distribution**  
+  The most popular genres include:
+  - Dramas
+  - Comedies
+  - Documentaries  
+  This shows Netflix focuses heavily on diverse entertainment and informative content.
+
+- **Content Released by India (Top 5 Years)**  
+  The top years with the most Indian content added show a gradual rise, suggesting that India is an increasingly important market for Netflix.
+
+- **Documentary Movies**  
+  A substantial number of documentaries were identified as Movies, showing Netflix's focus on educational or factual content.
+
+- **Content Without a Director**  
+  Some content items are missing the director information, pointing to data quality issues or incomplete metadata.
+
+- **Salman Khan’s Presence**  
+  Salman Khan appeared in several movies released in the last 10 years, reflecting his significant presence in Netflix’s Indian movie catalog.
+
+- **Top Indian Actors**  
+  The analysis shows actors like Salman Khan and others appeared in the highest number of movies produced in India, highlighting popular industry figures.
+
+- **Content Categorization: GOOD vs BAD**  
+  Based on keywords in the description like "kill" or "violence":
+  - A notable number of shows and movies are labeled BAD.
+  - The majority fall under GOOD, indicating Netflix offers mostly safe content but includes some edgy or mature-themed titles.
 
 ---
 
@@ -140,79 +195,6 @@ This project demonstrates how SQL can be effectively used to extract insights an
 
 - PostgreSQL
 - SQL Queries
-
----
-
-✅ Conclusion and Insights from EDA
-
-From the exploratory data analysis performed on the Netflix dataset, the following insights were derived:
-
-Content Type Count
-The dataset contains a mix of Movies and TV Shows, with a larger number of Movies compared to TV Shows.
-
-Most Common Ratings
-The most common ratings for Movies and TV Shows include TV-MA, PG-13, and TV-14. This suggests Netflix provides a wide range of content targeting both adults and family audiences.
-
-Recent Movies in 2020
-A number of movies were released in the year 2020, indicating ongoing content production even during challenging times (such as the global pandemic).
-
-Top 5 Countries by Content Count
-The top countries producing Netflix content are:
-
-United States
-
-India
-
-United Kingdom
-
-Japan
-
-Canada
-This shows Netflix's global strategy in producing and localizing content in key markets.
-
-Longest Movie
-The longest movie in the dataset stands out as an exceptionally long film, which could be a documentary or a special release.
-
-Content Added in Last 5 Years
-A significant portion of the content was added in the last 5 years, reflecting Netflix's continuous expansion of its library to stay competitive.
-
-Content by Director 'Rajiv Chilaka'
-Multiple entries directed by Rajiv Chilaka were found, indicating a productive content creator on the platform.
-
-TV Shows with More Than 5 Seasons
-Several TV Shows have more than 5 seasons, showing that some series are long-running and popular.
-
-Genre Distribution
-The most popular genres include:
-
-Dramas
-
-Comedies
-
-Documentaries
-This shows Netflix focuses heavily on diverse entertainment and informative content.
-
-Content Released by India (Top 5 Years)
-The top years with the most Indian content added show a gradual rise, suggesting that India is an increasingly important market for Netflix.
-
-Documentary Movies
-A substantial number of documentaries were identified as Movies, showing Netflix's focus on educational or factual content.
-
-Content Without a Director
-Some content items are missing the director information, pointing to data quality issues or incomplete metadata.
-
-Salman Khan’s Presence
-Salman Khan appeared in several movies released in the last 10 years, reflecting his significant presence in Netflix’s Indian movie catalog.
-
-Top Indian Actors
-The analysis shows actors like Salman Khan and others appeared in the highest number of movies produced in India, highlighting popular industry figures.
-
-Content Categorization: GOOD vs BAD
-Based on keywords in the description like "kill" or "violence":
-
-A notable number of shows and movies are labeled BAD.
-
-The majority fall under GOOD, indicating Netflix offers mostly safe content but includes some edgy or mature-themed titles.
 
 ---
 
