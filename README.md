@@ -143,11 +143,7 @@ This project demonstrates how SQL can be effectively used to extract insights an
 
 ---
 
-## 📫 Contact
 
-For any questions or suggestions, feel free to contact me at:  
-**Name:** Chanchal Kumar  
-**Email:** [Your Email Here]
 
 ---
 
